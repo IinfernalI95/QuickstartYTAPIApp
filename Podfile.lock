@@ -1,0 +1,80 @@
+PODS:
+  - Firebase/Auth (3.17.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.1)
+  - Firebase/Core (3.17.0):
+    - FirebaseAnalytics (= 3.9.0)
+    - FirebaseCore (= 3.6.0)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleAPIClientForREST/Core (3.3.0):
+    - GTMSessionFetcher/Full (< 4.0, >= 1.6.1)
+  - GoogleAPIClientForREST/YouTube (3.3.0):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher/Full (< 4.0, >= 1.6.1)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GTMSessionFetcher/Core (1.7.2)
+  - GTMSessionFetcher/Full (1.7.2):
+    - GTMSessionFetcher/Core (= 1.7.2)
+
+DEPENDENCIES:
+  - Firebase/Auth
+  - Google/SignIn
+  - GoogleAPIClientForREST/YouTube
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseInstanceID
+    - Google
+    - GoogleAPIClientForREST
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+
+SPEC CHECKSUMS:
+  Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleAPIClientForREST: ebbe8e40acdd2587c6b38fcc0fd955fbe69e3ddd
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+
+PODFILE CHECKSUM: 66478230d8752a8b689e8105178208f6e435b4ad
+
+COCOAPODS: 1.14.3

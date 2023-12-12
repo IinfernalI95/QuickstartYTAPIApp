@@ -1,0 +1,6 @@
+framework module Pods_QuickstartYTAPIApp {
+  umbrella header "Pods-QuickstartYTAPIApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
