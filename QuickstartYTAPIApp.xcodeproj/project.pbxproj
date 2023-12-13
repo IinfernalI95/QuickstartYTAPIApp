@@ -14,12 +14,9 @@
 		750E08202B1E429900055AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750E081F2B1E429900055AB6 /* Assets.xcassets */; };
 		750E08232B1E429900055AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750E08212B1E429900055AB6 /* LaunchScreen.storyboard */; };
 		750E082F2B1F862B00055AB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 750E082E2B1F862B00055AB6 /* GoogleService-Info.plist */; };
-		7FDD323C3A1B200D9C922CC0 /* Pods_QuickstartYTAPIApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92796F97ECF82AE530077BBA /* Pods_QuickstartYTAPIApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00933A3BF728A16D319DA577 /* Pods-QuickstartYTAPIApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartYTAPIApp.debug.xcconfig"; path = "Target Support Files/Pods-QuickstartYTAPIApp/Pods-QuickstartYTAPIApp.debug.xcconfig"; sourceTree = "<group>"; };
-		227B16412654B2BE712A1C77 /* Pods-QuickstartYTAPIApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickstartYTAPIApp.release.xcconfig"; path = "Target Support Files/Pods-QuickstartYTAPIApp/Pods-QuickstartYTAPIApp.release.xcconfig"; sourceTree = "<group>"; };
 		750E08132B1E429800055AB6 /* QuickstartYTAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickstartYTAPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		750E08162B1E429800055AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		750E08182B1E429800055AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +26,6 @@
 		750E08222B1E429900055AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		750E08242B1E429900055AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		750E082E2B1F862B00055AB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		92796F97ECF82AE530077BBA /* Pods_QuickstartYTAPIApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickstartYTAPIApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,21 +33,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FDD323C3A1B200D9C922CC0 /* Pods_QuickstartYTAPIApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		61972AA76740240B24EABA18 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				92796F97ECF82AE530077BBA /* Pods_QuickstartYTAPIApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		750E080A2B1E429700055AB6 = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +46,6 @@
 				750E08152B1E429800055AB6 /* QuickstartYTAPIApp */,
 				750E08142B1E429800055AB6 /* Products */,
 				E161ED4F7920626C6B7268CD /* Pods */,
-				61972AA76740240B24EABA18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +74,6 @@
 		E161ED4F7920626C6B7268CD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				00933A3BF728A16D319DA577 /* Pods-QuickstartYTAPIApp.debug.xcconfig */,
-				227B16412654B2BE712A1C77 /* Pods-QuickstartYTAPIApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,20 +85,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 750E08272B1E429900055AB6 /* Build configuration list for PBXNativeTarget "QuickstartYTAPIApp" */;
 			buildPhases = (
-				2DC006CD9C6B051D35F1AAA4 /* [CP] Check Pods Manifest.lock */,
 				750E080F2B1E429800055AB6 /* Sources */,
 				750E08102B1E429800055AB6 /* Frameworks */,
 				750E08112B1E429800055AB6 /* Resources */,
-				F9923F1963D01FB3B13A148D /* [CP] Embed Pods Frameworks */,
-				8D840ACFC3BE04F9EE77C0C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = QuickstartYTAPIApp;
-			packageProductDependencies = (
-			);
 			productName = QuickstartYTAPIApp;
 			productReference = 750E08132B1E429800055AB6 /* QuickstartYTAPIApp.app */;
 			productType = "com.apple.product-type.application";
@@ -143,8 +122,6 @@
 				Base,
 			);
 			mainGroup = 750E080A2B1E429700055AB6;
-			packageReferences = (
-			);
 			productRefGroup = 750E08142B1E429800055AB6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -167,65 +144,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2DC006CD9C6B051D35F1AAA4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QuickstartYTAPIApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8D840ACFC3BE04F9EE77C0C8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QuickstartYTAPIApp/Pods-QuickstartYTAPIApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QuickstartYTAPIApp/Pods-QuickstartYTAPIApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickstartYTAPIApp/Pods-QuickstartYTAPIApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F9923F1963D01FB3B13A148D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QuickstartYTAPIApp/Pods-QuickstartYTAPIApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QuickstartYTAPIApp/Pods-QuickstartYTAPIApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickstartYTAPIApp/Pods-QuickstartYTAPIApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		750E080F2B1E429800055AB6 /* Sources */ = {
@@ -381,7 +299,6 @@
 		};
 		750E08282B1E429900055AB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00933A3BF728A16D319DA577 /* Pods-QuickstartYTAPIApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -411,7 +328,6 @@
 		};
 		750E08292B1E429900055AB6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 227B16412654B2BE712A1C77 /* Pods-QuickstartYTAPIApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

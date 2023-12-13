@@ -12,7 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 //    var window: UIWindow?
-//    
+//
 //    func applicationDidFinishLaunching(_ application: UIApplication) {
 //        // Initialize Google sign-in.
 //        GIDSignIn.sharedInstance().clientID = "<731247984284-eta8h43im0g1ar69fevifpk67dog3if6.apps.googleusercontent.com>"
