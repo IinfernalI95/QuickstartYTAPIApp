@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
+        
+        var i = 0
 //        // Configure Google Sign-in.
 //        GIDSignIn.sharedInstance().delegate = self
 //        GIDSignIn.sharedInstance().uiDelegate = self
