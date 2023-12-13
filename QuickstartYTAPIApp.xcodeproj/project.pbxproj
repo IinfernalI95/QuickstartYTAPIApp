@@ -13,11 +13,10 @@
 		750E081E2B1E429800055AB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750E081C2B1E429800055AB6 /* Main.storyboard */; };
 		750E08202B1E429900055AB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750E081F2B1E429900055AB6 /* Assets.xcassets */; };
 		750E08232B1E429900055AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750E08212B1E429900055AB6 /* LaunchScreen.storyboard */; };
-		750E082F2B1F862B00055AB6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 750E082E2B1F862B00055AB6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		750E08132B1E429800055AB6 /* QuickstartYTAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickstartYTAPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		750E08132B1E429800055AB6 /* QuickstartYTAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = QuickstartYTAPIApp.app; path = "/Users/artur/Desktop/Developer/QuickstartYTAPIApp/build/Debug-iphoneos/QuickstartYTAPIApp.app"; sourceTree = "<absolute>"; };
 		750E08162B1E429800055AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		750E08182B1E429800055AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		750E081A2B1E429800055AB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +24,6 @@
 		750E081F2B1E429900055AB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		750E08222B1E429900055AB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		750E08242B1E429900055AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		750E082E2B1F862B00055AB6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,19 +40,8 @@
 		750E080A2B1E429700055AB6 = {
 			isa = PBXGroup;
 			children = (
-				750E082E2B1F862B00055AB6 /* GoogleService-Info.plist */,
 				750E08152B1E429800055AB6 /* QuickstartYTAPIApp */,
-				750E08142B1E429800055AB6 /* Products */,
-				E161ED4F7920626C6B7268CD /* Pods */,
 			);
-			sourceTree = "<group>";
-		};
-		750E08142B1E429800055AB6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				750E08132B1E429800055AB6 /* QuickstartYTAPIApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		750E08152B1E429800055AB6 /* QuickstartYTAPIApp */ = {
@@ -69,13 +56,6 @@
 				750E08242B1E429900055AB6 /* Info.plist */,
 			);
 			path = QuickstartYTAPIApp;
-			sourceTree = "<group>";
-		};
-		E161ED4F7920626C6B7268CD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +102,7 @@
 				Base,
 			);
 			mainGroup = 750E080A2B1E429700055AB6;
-			productRefGroup = 750E08142B1E429800055AB6 /* Products */;
+			productRefGroup = 750E080A2B1E429700055AB6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -137,7 +117,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				750E08232B1E429900055AB6 /* LaunchScreen.storyboard in Resources */,
-				750E082F2B1F862B00055AB6 /* GoogleService-Info.plist in Resources */,
 				750E08202B1E429900055AB6 /* Assets.xcassets in Resources */,
 				750E081E2B1E429800055AB6 /* Main.storyboard in Resources */,
 			);
