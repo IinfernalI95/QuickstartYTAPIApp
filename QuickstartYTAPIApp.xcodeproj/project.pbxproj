@@ -16,10 +16,10 @@
 		7526FBE92B29F92C00029B25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526FBE82B29F92C00029B25 /* Constants.swift */; };
 		7526FBEB2B29FC3600029B25 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526FBEA2B29FC3600029B25 /* Video.swift */; };
 		7526FBED2B29FD2A00029B25 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526FBEC2B29FD2A00029B25 /* Model.swift */; };
+		75B0C45F2B35DF7F0043B31A /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C45E2B35DF7F0043B31A /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		750E08132B1E429800055AB6 /* QuickstartYTAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = QuickstartYTAPIApp.app; path = "/Users/artur/Desktop/Developer/QuickstartYTAPIApp/build/Debug-iphoneos/QuickstartYTAPIApp.app"; sourceTree = "<absolute>"; };
 		750E08162B1E429800055AB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		750E08182B1E429800055AB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		750E081A2B1E429800055AB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +30,8 @@
 		7526FBE82B29F92C00029B25 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7526FBEA2B29FC3600029B25 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		7526FBEC2B29FD2A00029B25 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		75B0C45D2B346CCE0043B31A /* QuickstartYTAPIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickstartYTAPIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B0C45E2B35DF7F0043B31A /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				750E08152B1E429800055AB6 /* QuickstartYTAPIApp */,
+				75B0C45D2B346CCE0043B31A /* QuickstartYTAPIApp.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +60,7 @@
 				750E08182B1E429800055AB6 /* SceneDelegate.swift */,
 				750E081A2B1E429800055AB6 /* ViewController.swift */,
 				7526FBE82B29F92C00029B25 /* Constants.swift */,
+				75B0C45E2B35DF7F0043B31A /* ConstantsTemplate.swift */,
 				7526FBEA2B29FC3600029B25 /* Video.swift */,
 				7526FBEC2B29FD2A00029B25 /* Model.swift */,
 				750E081C2B1E429800055AB6 /* Main.storyboard */,
@@ -84,7 +88,7 @@
 			);
 			name = QuickstartYTAPIApp;
 			productName = QuickstartYTAPIApp;
-			productReference = 750E08132B1E429800055AB6 /* QuickstartYTAPIApp.app */;
+			productReference = 75B0C45D2B346CCE0043B31A /* QuickstartYTAPIApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B0C45F2B35DF7F0043B31A /* ConstantsTemplate.swift in Sources */,
 				750E081B2B1E429800055AB6 /* ViewController.swift in Sources */,
 				750E08172B1E429800055AB6 /* AppDelegate.swift in Sources */,
 				750E08192B1E429800055AB6 /* SceneDelegate.swift in Sources */,
