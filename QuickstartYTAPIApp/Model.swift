@@ -21,8 +21,16 @@ class Model {
                 return
             }
             
-            if let data = data {
-                print(data)
+            do {
+                if let data = data {
+                    let decoder = JSONDecoder()
+                    decoder.dateDecodingStrategy = .iso8601
+                    
+                    let response = try decoder.decode(Response.self, from: data)
+                    dump(response)
+                }
+            } catch let error {
+                print(error.localizedDescription)
             }
             
         }.resume()
